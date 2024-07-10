@@ -185,3 +185,46 @@
   background-color: rgba(180, 180, 180, 0.6);
 }
 
+
+
+.inspire {
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+}
+
+.inspire-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspire-head h2 {
+  font-size: 2.8rem;
+  line-height: 1.05;
+  opacity: 0.95;
+}
+
+.inspire-head p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.05;
+  opacity: 0.95;
+  width: 80%;
+  text-align: center;
+}
+
+.inspire--video {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspire--video iframe {
+  width: 70rem;
+  height: 40rem;
+  border-radius: 1.5rem;
+  padding: 0.6rem;
+  border: 6px solid rgba(92, 92, 91, 0.6);
